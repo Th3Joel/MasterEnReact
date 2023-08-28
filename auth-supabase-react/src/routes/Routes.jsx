@@ -5,10 +5,12 @@ import { AuthContextProvider } from "../context/AuthContext";
 export const MyRoutes = () => {
   return (
     <BrowserRouter>
+
       <AuthContextProvider>
         <Routes>
           <Route path="inicio" element={<Home />} />
           <Route path="login" element={<Login />} />
+          <Route path="*" element={<div>No econtrado</div>} />
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>

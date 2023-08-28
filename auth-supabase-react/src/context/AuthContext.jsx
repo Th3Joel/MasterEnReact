@@ -37,10 +37,10 @@ export const AuthContextProvider = ({ children }) => {
         //console.log("Evento: ", event);
         //console.log("Session: ", session);
         if (session == null) {
-          navegar("/login", { replace: true });
+          navegar("login", { replace: true });
         } else {
           setUser(session.user.user_metadata);
-          navegar("/", { replace: true });
+          navegar("inicio", { replace: true });
         }
       }
     );

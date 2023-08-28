@@ -7,8 +7,8 @@ export const MyRoutes = () => {
     <BrowserRouter>
       <AuthContextProvider>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="inicio" element={<Home />} />
+          <Route path="login" element={<Login />} />
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>

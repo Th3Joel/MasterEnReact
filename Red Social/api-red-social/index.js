@@ -6,7 +6,7 @@ const cors = require("cors");
 //Mensaje de bienvenido
 console.log("API node para red social");
 
-//Conexion a la base de datos
+//Conexion a la base de datosn
 conexion();
 
 //Crear servidor node 
